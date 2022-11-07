@@ -1,0 +1,406 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bear{
+    position: relative;
+}
+
+.sun{
+    position: absolute;
+    top: 5%;
+    left:50%;
+}
+
+body{
+    width: 1600px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+ul{
+    /* display: flex; */
+    
+    width: 80%;
+}
+.navigation{
+    background-color: #000000;
+    height: 80px;
+    color: #FFFFFF;
+    /* z-index: 7; */
+}
+
+
+.navigation ul li{
+    color: #FFFFFF;
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.navigation ul li a{
+    color: #FFFFFF;
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+h1{
+    font-size: 80px;
+    width: 500.31px;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    
+}
+
+h3{
+    margin: auto;
+    /* margin-top: 100px; */
+    font-size: 55px;
+    font-weight: 300;
+    color:white;
+    width: 1250px;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+h5{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 300;
+    color:white;
+    width: 1250px;
+}
+
+h4{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 300;
+    color: orange;
+    width: 1250px;
+}
+
+.structure{
+    margin: auto;
+    background: rgba(253, 253, 255, 0.52);
+    border-radius: 20px;
+    width: 1200px;
+    height: 835px;
+    padding: 50px;
+}
+
+.share{
+    width: 350px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.pick{
+    color: orange;
+    width: 450px;
+}
+
+.weknow{
+    color: rgb(33, 9, 9);
+    font-size: 25px;
+    width: 950px;
+}
+
+.cartoon{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.cartoon-inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.bigint{
+    font-size: 50px;
+    align-self: center;
+}
+
+.multi{
+    margin-right: 30px;
+}
+
+.thisInput{
+    background: rgba(253, 253, 255, 0.52);
+    border: 1px solid lightgray;
+    height: 50px;
+    font-size: 15px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    padding: 5px;
+}
+
+.checkboxes{
+    width: 200px;
+    margin: auto;
+    display: flex;
+    color: black;
+}
+
+.checkboxes input, label{
+    margin: 20px 0 0 5px;
+    
+}
+
+.checkboxes label{
+    color: black;
+}
+
+.watch-btn{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 400px;
+    height: 55px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: orange;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 25px;
+    /* margin-bottom: -200px; */
+    /* display: inline; */
+}
+.backstage{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bamboo{
+    display: inline;
+}
+
+.article{
+    display: inline;
+    width: 500px;
+}
+
+.bamboo{
+    height: 403px;
+    width: 609px;
+}
+
+.flowers{
+    height: 605px;
+    width: 293px;
+}
+
+.wilderness{
+    width: 552px;
+    height: 403px;
+}
+
+.palm{
+    margin-top: 675px;
+    float: left;
+}
+
+.strelitzia{
+    float: right;
+}
+
+
+.grid-card{
+    display: inline;
+}
+
+.feed{
+    background-color: blue;
+    width: 1600px;
+    height: 1404px;
+    margin: auto;
+    margin-top: -5px;
+    background-color: rgb(248, 199, 159);
+    padding: 100px;
+}
+
+.inner-feed{
+    margin: auto;
+    background-color: rgb(248, 199, 159);
+    border-radius: 20px;
+    width: 1300px;
+    height: 835px;
+    padding: 50px;
+}
+
+.feed-btn{
+    width: 400px;
+    height: 55px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: orange;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 350px;
+    border: none;
+}
+
+.individ{
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.vector{
+    margin-top: 0;
+    margin-left: 70px;
+}
+
+.testimonials{
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    /* width: 1200; */
+    height: 575px;
+    /* border: 2px red solid; */
+}
+.testdiv{
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+    height: 800px;
+    background-color: lightgrey;
+    height: 391px;
+    width: 268px;
+    overflow-y: hidden;
+  
+}
+
+.comment{
+    width:237px;
+    height:309px
+}
+
+.thin-btn{
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 0;
+     width: 15%; 
+     height: 10px;
+     display: block;
+     background-color: orange;
+}
+.thin-btn2{
+    margin-top: 20px;
+    border-radius: 0;
+     width: 35%; 
+     height: 10px;
+     display: block;
+     background-color: gray;
+}
+
+.cont{
+    display: flex;
+}
+.part{
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 0;
+    background-color: orange;
+    width: 100px;
+    border: 0;
+}
+
+footer{
+    margin-top: 468px;
+    margin-left: -100px;
+    background-color: #000000;
+    height:443px;
+    width: 1600px;
+    /* margin: auto; */
+}
+
+.donate-btn{
+    background: orange;
+    width:300px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    margin-left: 50px;
+}
+
+.footer-logo{
+    margin: 50px;
+}
+
+.footer-container{
+    display: flex;
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+}
+
+label{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+input{
+    color:#FFFFFF;
+    border: 1px orangered solid;
+    background-color: #000000;
+    margin-right: 10px;
+}
+
+.subscribe-container{
+    margin: 50px 0 0 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input-container{
+    margin-top: 10px;
+    display: flex;
+}
+
+.block-img{
+    display: block;
+    margin: 0 0 5px 50px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.last-container{
+    display: flex;
+}
